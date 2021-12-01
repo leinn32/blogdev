@@ -1,9 +1,19 @@
 baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "Code & Beer"
+theme = "ghostwriter"
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "Red teamer & Beer taster"
+    description = "to avoid rain..."
+    github = "https://github.com/leinn32"
+    twitter = "https://twitter.com/leinn32"
+    email = "leinn32@sideralsynchrony.com"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:filename/"
+
